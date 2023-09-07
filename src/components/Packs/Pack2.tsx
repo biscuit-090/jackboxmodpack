@@ -9,7 +9,6 @@ import { faCheckCircle, faCode, faXmarkCircle } from "@fortawesome/free-solid-sv
 import './Packs.css';
 
 interface PackProps {
-
 }
 
 interface PackSubProps {
@@ -65,6 +64,12 @@ const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
 
   const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSelectedFiles(event.target.files);
+    let btn = document.getElementById('earwaxbtn') as HTMLButtonElement;
+    if (btn) {
+        btn.disabled = false;
+        btn.style.opacity = '1';
+        btn.style.transition = '0.2s';
+    }    
   }
 
   const handleUpload = async () => {
@@ -101,9 +106,10 @@ const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
       badrequest = true;
       console.error(error);
       setOutput("Error uploading files");
-    } setTimeout(() => {
-      setShowSpinner(false);
-    }, 0);
+    } setShowSpinner(false);
+    setTimeout(() => {
+      window.location.reload();
+    }, 3000);
   }
 
   return (
@@ -112,12 +118,10 @@ const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
       <LargeTitle text="Earwax Mods" styles={{margin: '20px 0 0 0'}}/>
       <div style={{display: 'flex', flexDirection: 'column', marginTop: '30px', alignItems: 'center', justifyContent: 'center', background: '#222', borderRadius: '8px', padding: '20px', width: '95%'}}>
         <MediumTitle text="Custom Audio Files" styles={{margin: '0 0 10px 0'}}/>
-        <Description text="Upload custom audio files (.ogg) to Earwax to be randomly distributed to players." styles={{margin: '0 0 25px 0'}}/>
-
+        <Description text="Upload custom audio files to Earwax to be randomly distributed to players." styles={{margin: '0 0 25px 0'}}/>
         <input type="file" accept=".ogg" multiple onChange={handleFileChange} style={{color: 'white', fontFamily: 'Inter', fontSize: '20px', width: '300px', marginLeft: '30px'}}/>
         <span style={{color: '#999', fontFamily: 'Inter', fontWeight: 600, fontSize: '16px', marginTop: '15px'}}>Supported file types: .ogg</span>
-
-        <button onClick={handleUpload} style={{marginTop: '20px', width: '25%'}}>Upload Files</button>
+        <button id="earwaxbtn" onClick={handleUpload} style={{marginTop: '20px', width: '25%', opacity: 0.4, transition: '0.2s'}}>Select Earwax Directory</button>
         {showSpinner && <div className={`spinner ${!showSpinner ? 'fadeOut' : ''}`}></div>}
         {output && 
           <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}}>
@@ -138,7 +142,7 @@ const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
 
       <div style={{display: 'flex', flexDirection: 'column', marginTop: '20px', alignItems: 'center', justifyContent: 'center', background: '#222', borderRadius: '8px', padding: '20px', width: '95%', opacity: 0.4}}>
         <MediumTitle text="Custom Voice Prompts" styles={{margin: '0 0 10px 0'}}/>
-        <Description text="Upload custom audio files (.ogg) to Earwax to be randomly distributed to players." styles={{margin: '0 0 15px 0'}}/>
+        <Description text="Upload custom voice prompts to Earwax to be narrated live in-game." styles={{margin: '0 0 15px 0'}}/>
         <div style={{display: 'flex', alignItems: 'center'}}>
           <FontAwesomeIcon icon={faCode} style={{fontSize: '20px', color: 'dodgerblue', marginRight: '10px'}} />
           <SmallTitle text="In Development" styles={{margin: 0}}/>
@@ -148,7 +152,6 @@ const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
     </div>
   );
 }
-
 
 const Pack2Fibbage2: React.FC<PackSubProps> = ({  }) => {
   return (

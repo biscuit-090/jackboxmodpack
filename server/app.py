@@ -3,7 +3,9 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 import random
 import shutil
-from actions import format_jet_file, find_template, add_new_object
+from actions import format_jet_file, find_template, add_new_object, select_dir
+import tkinter as tk
+from tkinter import filedialog
 
 app = Flask(__name__)
 CORS(app)
@@ -11,6 +13,12 @@ CORS(app, resources={r"/pack2earwax": {"origins": "http://localhost:3000"}})
 
 @app.route('/pack2earwax', methods=['POST'])
 def pack_2_earwax():
+    root = tk.Tk()
+    root.withdraw()
+    folder_selected = filedialog.askdirectory()
+    BASE_EARWAX = folder_selected
+    root.destroy()
+    print(BASE_EARWAX)
     BASE_EARWAX_AUDIO_DIR = r"/content/EarwaxAudio/Audio/"
     BASE_EARWAX_JET_FILE = r"/content/EarwaxAudio.jet"
     BASE_EARWAX_SPECTRUM_DIR = r"/content/EarwaxAudio/Spectrum/"

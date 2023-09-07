@@ -3359,3 +3359,92 @@ Press CTRL+C to quit
     original_template = f"{}{BASE_EARWAX_SPECTRUM_DIR}22740.jet"
                                                                 ^
 SyntaxError: f-string: empty expression not allowed
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\os.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 10:45:54] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+C:/Program Files (x86)/Steam/steamapps/common/The Jackbox Party Pack 2/games/Earwax
+Uploaded file: bad-to-the-bone.ogg as 73539.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 50688.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 10:48:05] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 10:48:13] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 10:48:19] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 10:48:25] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 10:50:12] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 10:50:57] "POST /pack2earwax HTTP/1.1" 200 -

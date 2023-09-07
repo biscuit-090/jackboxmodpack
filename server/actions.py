@@ -1,5 +1,7 @@
 import os
 import json
+import tkinter as tk
+from tkinter import filedialog
 
 BASE_EARWAX_AUDIO_DIR = r"/content/EarwaxAudio/Audio/"
 BASE_EARWAX_JET_FILE = r"/content/EarwaxAudio.jet"
@@ -40,3 +42,9 @@ def format_jet_file(file_path):
     data = json.loads(content)
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=4)
+
+def select_dir():
+    root = tk.Tk()
+    root.withdraw()
+    folder_selected = filedialog.askdirectory()
+    return folder_selected
