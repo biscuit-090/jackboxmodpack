@@ -16,7 +16,7 @@ First, make sure you have [Node](https://nodejs.org/en/download) and [Python 3](
   - Run `serve -s build`.
   - `cd` into `jackboxmodpack-main\jackboxmodpack-main\server` on the second terminal.
   - Run `python app.py`.
-    - Running both of these servers is meant to be automatically taken care of when you simply double click the .exe but imma automate this shit later bc I need sleep and nourishment and like other human shit rn fr.
+    - Running both of these servers is meant to be automatic when you run the .exe but imma automate that shit later bc I need sleep and nourishment and like other human shit rn fr.
 6. Click into `jackboxmodpack-win32-x64` and double click that `.exe` biotch!!
 
 This software is untested af 🔥
