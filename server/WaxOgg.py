@@ -1,7 +1,7 @@
 import time
 
 from GUI import search_for_path, search_for_file_path
-from python.actions import generate_manager
+from actions import generate_manager
 
 print("Welcome to WaxOgg, you'll be asked a couple stuff, just follow the instructions and you'll be fine\n")
 time.sleep(2)

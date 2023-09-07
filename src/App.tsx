@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Route, Link, Routes, useLocation } from "react
 import ImageLink from './components/ImageLink';
 import LargeTitle from './components/Titles';
 import Description from './components/Description';
-import { Pack1, Pack2, Pack3, Pack4, Pack5, Pack6, Pack7, Pack8, Pack9, Pack10, Pack1FibbageXL, Pack1Lieswatter, Pack1Wordspud, Pack1YDKJ, Pack1Drawful, Pack2Bidiots, Pack2Bombcorp, Pack2Earwax, Pack2Fibbage2, Pack2QuiplashXL } from './components/Packs';
+import { Pack1, Pack3, Pack4, Pack5, Pack6, Pack7, Pack8, Pack9, Pack10, Pack1FibbageXL, Pack1Lieswatter, Pack1Wordspud, Pack1YDKJ, Pack1Drawful } from './components/Packs';
+import Pack2 from './components/Packs/Pack2';
+import { Pack2Bidiots, Pack2Bombcorp, Pack2Earwax, Pack2Fibbage2, Pack2QuiplashXL } from './components/Packs/Pack2';
 import { useTransition, animated } from 'react-spring';
-import { CSSProperties } from 'react';
+import { CSSProperties, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
@@ -130,9 +132,7 @@ const MainContent: React.FC<MainContentProps> = ({ styles }) => {
   ));
 }
 
-
-function App() {
-
+const App: React.FC = () => {  
   return (
     <Router>
       <div className="App">

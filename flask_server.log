@@ -6,3 +6,963 @@ Press CTRL+C to quit
  * Restarting with watchdog (windowsapi)
  * Debugger is active!
  * Debugger PIN: 647-564-502
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\random.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\shutil.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\re\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\typing.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\wsgiref\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\xml\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\xmlrpc\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\__phello__\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\absl\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\schema\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\schema\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\schema\\channels.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\api.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\utils\\schemapi.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\utils\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\utils\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\data.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\display.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\theme.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\expr\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\expr\\funcs.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\expr\\consts.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\expr\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\data.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\utils\\data.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\astunparse\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\blinker\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\blinker\\base.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\boto3\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\botocore\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\api.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\legacy.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\models.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\utils.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\version.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\contourpy\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\contourpy\\_version.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\customtkinter\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\darkdetect\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\dotenv\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\dotenv\\main.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_api.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_error.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_soft.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_unix.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_windows.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\functorch\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gast\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\_config.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\_hub_local.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\_hub_primitives.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\greenlet.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\timeout.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\hub.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\exc.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gitdb\\exc.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\base.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\blob.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\commit.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\submodule\\base.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\submodule\\root.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\tag.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\tree.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\refs\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\idna\\intranges.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\importlib_metadata\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\importlib_metadata\\_meta.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\bccache.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\environment.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\exceptions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\loaders.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\runtime.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\jinja2\\utils.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\keras\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\markdown_it\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\markdown_it\\main.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\markupsafe\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\matplotlib\\pylab.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\matplotlib\\tests\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\matplotlib\\tight_bbox.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\mdurl\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\mdurl\\_decode.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\mdurl\\_encode.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\mdurl\\_format.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\mdurl\\_parse.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\mdurl\\_url.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\mpl_toolkits\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\opt_einsum\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\packaging\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pasta\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pip\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pyarrow\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pyasn1_modules\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pydeck\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pympler\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pytz_deprecation_shim\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pytz_deprecation_shim\\_exceptions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pytz_deprecation_shim\\_impl.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\requests_oauthlib\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\rich\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\rsa\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\rsa\\key.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\rsa\\pkcs1.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\s3transfer\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\smmap\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\soupsieve\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\soupsieve\\util.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\streamlit\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\streamlit\\echo.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\streamlit\\elements\\spinner.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\streamlit\\commands\\page_config.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\streamlit\\commands\\execution_control.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\retry.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\nap.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\stop.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\wait.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\before.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\after.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\before_sleep.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tenacity\\_asyncio.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tensorboard\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tensorflow\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tlz\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\toolz\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\functional.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\_tensor.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\decorators.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\exceptions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\formatting.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\globals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\parser.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\termui.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\types.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\utils.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\distlib\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\blueprints.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\cli.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\config.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\ctx.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\helpers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\logging.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\scaffold.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\sessions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\signals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\templating.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\testing.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\typing.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\views.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\__main__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flatbuffers\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\fontTools\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\fontTools\\misc\\loggingTools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\freetype\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\encoding.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\exc.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\serializer.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\signer.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\timed.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\url_safe.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\kiwisolver\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\mpmath\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\platformdirs\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\platformdirs\\api.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\platformdirs\\version.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pycparser\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pydub\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\util.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\exceptions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\actions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\results.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\core.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\helpers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\unicode.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\stem\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\release.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\sympify.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\cache.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\basic.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\assumptions\\ask.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\assumptions\\refine.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polytools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polyfuncs.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\rationaltools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polyerrors.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\minpoly.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\subfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\utilities.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\basis.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\primes.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\galoisgroups.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\monomials.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\orderings.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\rootoftools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polyroots.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\domain.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\finitefield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\integerring.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\rationalfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\realfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\complexfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\pythonfinitefield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\gmpyfinitefield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\pythonintegerring.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\gmpyintegerring.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\pythonrational.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\gmpyrationalfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\algebraicfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\polynomialring.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\fractionfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\expressiondomain.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\gaussiandomains.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\expressionrawdomain.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\constructor.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\specialpolys.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\orthopolys.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\partfrac.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polyoptions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\rings.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\fields.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\order.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\limits.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\gruntz.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\approximants.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\residues.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\sequences.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\fourier.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\formal.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\limitseq.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\combinatorial\\factorials.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\combinatorial\\numbers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\miscellaneous.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\complexes.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\trigonometric.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\exponential.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\hyperbolic.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\integers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\piecewise.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\error_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\gamma_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\zeta_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\tensor_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\singularity_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\delta_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\bsplines.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\bessel.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\hyper.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\polynomials.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\spherical_harmonics.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\elliptic_integrals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\beta_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\mathieu_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\generate.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\primetest.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\factor_.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\partitions_.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\residue_ntheory.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\multinomial.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\continued_fraction.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\ntheory\\egyptian_fraction.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\concrete\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\concrete\\products.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\concrete\\summations.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\discrete\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\discrete\\transforms.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\discrete\\convolutions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\simplify\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\simplify\\simplify.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\simplify\\fu.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\simplify\\sqrtdenest.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\simplify\\cse_main.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\simplify\\epathtools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\simplify\\hyperexpand.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\solvers\\deutils.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\solvers\\inequalities.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\solvers\\decompogen.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\solvers\\solveset.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\common.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\dense.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\matrices.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\sparse.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\sparsetools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\immutable.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\slice.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\blockmatrix.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\funcmatrix.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\special.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\inverse.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\matadd.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\matmul.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\matpow.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\matexpr.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\trace.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\transpose.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\adjoint.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\hadamard.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\determinant.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\diagonal.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\dotproduct.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\kronecker.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\matrices\\expressions\\permutation.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\point.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\line.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\plane.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\ellipse.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\polygon.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\util.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\exceptions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\curve.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\geometry\\parabola.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\utilities\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\utilities\\iterables.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\utilities\\misc.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\utilities\\lambdify.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\utilities\\decorator.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\utilities\\timeutils.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\integrals\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\integrals\\integrals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\integrals\\transforms.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\integrals\\singularityfunctions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\indexed.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\index_methods.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\array\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\array\\dense_ndim_array.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\array\\sparse_ndim_array.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\array\\ndim_array.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\tensor\\array\\arrayop.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\parsing\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\parsing\\sympy_parser.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\calculus\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\calculus\\euler.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\calculus\\singularities.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\calculus\\finite_diff.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\calculus\\util.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\calculus\\accumulationbounds.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\algebras\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\algebras\\quaternion.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\pretty\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\pretty\\pretty.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\latex.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\mathml.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\python.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\pycode.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\codeprinter.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\smtlib.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\glsl.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\rcode.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\jscode.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\julia.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\mathematica.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\octave.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\rust.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\gtk.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\preview.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\repr.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\tree.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\str.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\tableform.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\dot.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\printing\\maple.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\plotting\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\plotting\\plot.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\plotting\\textplot.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\plotting\\plot_implicit.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\interactive\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\interactive\\session.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\interactive\\printing.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\interactive\\traversal.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\tensorboard_data_server\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\tensorflow_estimator\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\python\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\python\\GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\python\\V2 GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\python\\WaxOgg.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\python\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\python\\GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\python\\V2 GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\V2 GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\V2 GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\python\\WaxOgg.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\core.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\decorator.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\version.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\core.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\core.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\decorator.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\decorator.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\version.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\version.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\json\\provider.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\json\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\json\\encoder.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\datetime.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\scaffold.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\typing.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\asyncio_client.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\asyncio_server.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\asyncio_socket.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\client.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\exceptions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\json.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\middleware.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\packet.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\payload.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\server.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\socket.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\static_files.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\aiohttp.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\asgi.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\eventlet.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\gevent.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\gevent_uwsgi.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\sanic.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\threading.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\tornado.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\engineio\\async_drivers\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\concurrent\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\distutils\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\idlelib\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\lib2to3\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\test\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\turtledemo\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\wsgiref\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\xml\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\xmlrpc\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\__phello__\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\absl\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\schema\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\schema\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\schema\\channels.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\api.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\utils\\schemapi.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\utils\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\utils\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\data.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\display.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\v5\\theme.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\expr\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\expr\\funcs.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\expr\\consts.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\expr\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\vegalite\\data.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\altair\\utils\\data.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\astunparse\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\blinker\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\blinker\\base.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\boto3\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\botocore\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\api.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\legacy.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\models.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\utils.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\charset_normalizer\\version.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\contourpy\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\contourpy\\_version.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\customtkinter\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\darkdetect\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\dotenv\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\dotenv\\main.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_api.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_error.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_soft.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_unix.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\filelock\\_windows.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\functorch\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gast\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\_config.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\_hub_local.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\_hub_primitives.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\greenlet.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\timeout.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\hub.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\exc.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gitdb\\exc.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\base.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\blob.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\commit.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\submodule\\base.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\submodule\\root.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\tag.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\objects\\tree.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\refs\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\refs\\symbolic.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\refs\\reference.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\refs\\head.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\git\\refs\\tag.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\functional.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\_tensor.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\storage.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\random.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\serialization.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\_tensor_str.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\_lowrank.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\autograd\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\autograd\\grad_mode.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\signal\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\_lobpcg.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\func\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torch\\_functorch\\vmap.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torchgen\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\torchvision\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\tornado\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\validators\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\validators\\card.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\validators\\extremes.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\validators\\hashes.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\validators\\i18n\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\validators\\i18n\\fi.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\validators\\ip_address.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\validators\\utils.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\websocket\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\certifi\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\clang\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\core.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\decorators.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\exceptions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\formatting.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\globals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\parser.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\termui.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\types.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\click\\utils.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\distlib\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\blueprints.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\cli.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\config.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\ctx.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\debughelpers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\helpers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\logging.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\sessions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\signals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\templating.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\testing.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\views.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\__main__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flatbuffers\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\fontTools\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\fontTools\\misc\\loggingTools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\freetype\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\encoding.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\exc.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\serializer.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\signer.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\timed.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\itsdangerous\\url_safe.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\kiwisolver\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\mpmath\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\numpy\\_typing\\_extended_precision.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\platformdirs\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\platformdirs\\api.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\platformdirs\\version.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pycparser\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pydub\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\util.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\exceptions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\actions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\results.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\core.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\helpers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\pyparsing\\unicode.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\stem\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\release.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\sympify.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\cache.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\basic.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\traversal.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\singleton.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\expr.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\symbol.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\numbers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\power.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\mul.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\add.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\mod.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\relational.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\multidimensional.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\function.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\evalf.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\containers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\exprtools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\parameters.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\core\\sorting.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\logic\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\logic\\boolalg.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\logic\\inference.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\assumptions\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\assumptions\\assume.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\assumptions\\ask.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\assumptions\\refine.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polytools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polyfuncs.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\rationaltools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polyerrors.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\minpoly.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\subfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\utilities.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\basis.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\primes.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\numberfields\\galoisgroups.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\monomials.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\orderings.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\rootoftools.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polyroots.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\domain.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\finitefield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\integerring.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\rationalfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\realfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\complexfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\pythonfinitefield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\gmpyfinitefield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\pythonintegerring.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\gmpyintegerring.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\pythonrational.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\gmpyrationalfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\algebraicfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\polynomialring.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\fractionfield.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\expressiondomain.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\gaussiandomains.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\domains\\expressionrawdomain.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\constructor.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\specialpolys.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\orthopolys.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\partfrac.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\polyoptions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\rings.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\polys\\fields.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\order.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\limits.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\gruntz.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\approximants.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\residues.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\sequences.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\fourier.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\formal.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\series\\limitseq.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\combinatorial\\factorials.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\combinatorial\\numbers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\miscellaneous.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\complexes.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\trigonometric.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\exponential.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\hyperbolic.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\integers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\elementary\\piecewise.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\error_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\gamma_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\zeta_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\tensor_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\singularity_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\delta_functions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\bsplines.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\functions\\special\\bessel.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\sympy\\interactive\\traversal.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\tensorboard_data_server\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\tensorflow_estimator\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\tensorflow_io_gcs_filesystem\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\termcolor\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\termcolor\\termcolor.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\tzdata\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\virtualenv\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\virtualenv\\run\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\virtualenv\\version.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\watchdog\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\test.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\wheel\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\wrapt\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\zipp\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 169-721-525
+[2023-09-06 22:16:28,720] WARNING in __init__: WebSocket transport not available. Install gevent-websocket for improved performance.
+[2023-09-06 22:23:18,043] WARNING in __init__: WebSocket transport not available. Install gevent-websocket for improved performance.
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 169-721-525
+[2023-09-06 22:23:18,678] WARNING in __init__: WebSocket transport not available. Install gevent-websocket for improved performance.
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\threading.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\gevent\\_ffi\\loop.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\traceback.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\V2 GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
