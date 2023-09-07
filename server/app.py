@@ -18,17 +18,15 @@ def pack_2_earwax():
     folder_selected = filedialog.askdirectory()
     BASE_EARWAX = folder_selected
     root.destroy()
-    print(BASE_EARWAX)
     BASE_EARWAX_AUDIO_DIR = r"/content/EarwaxAudio/Audio/"
     BASE_EARWAX_JET_FILE = r"/content/EarwaxAudio.jet"
     BASE_EARWAX_SPECTRUM_DIR = r"/content/EarwaxAudio/Spectrum/"
     TEMPLATE_SPECTRUM = r"/content/EarwaxAudio/Spectrum/Template.jet"
-    earwax_dir = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 2\games\Earwax"
-    earwax_audio_jet = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 2\games\Earwax\content\EarwaxAudio.jet"
-    earwax_audio_dir = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 2\games\Earwax\content\EarwaxAudio\Audio"
-    earwax_audio_dir = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 2\games\Earwax\content\EarwaxAudio\Audio"
+    # earwax_dir = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 2\games\Earwax"
+    # earwax_audio_jet = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 2\games\Earwax\content\EarwaxAudio.jet"
+    # earwax_audio_dir = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 2\games\Earwax\content\EarwaxAudio\Audio"
     # format that disgusting ass file NOW!
-    format_jet_file(earwax_audio_jet)
+    format_jet_file(f"{BASE_EARWAX}{BASE_EARWAX_JET_FILE}")
     if request.method == 'POST':
         uploaded_files = request.files.getlist('oggFiles')
     
@@ -40,28 +38,28 @@ def pack_2_earwax():
 
         # Step 1: Rename .ogg files with a unique ID and place them in the Audio folder
         unique_id = random.randint(50000, 80000)
-        while os.path.exists(os.path.join(earwax_audio_dir, f"{unique_id}.ogg")):
+        while os.path.exists(os.path.join(f"{BASE_EARWAX}{BASE_EARWAX_AUDIO_DIR}", f"{unique_id}.ogg")):
             unique_id = random.randint(50000, 80000)
-        file.save(os.path.join(earwax_audio_dir, f"{unique_id}.ogg"))
+        file.save(os.path.join(f"{BASE_EARWAX}{BASE_EARWAX_AUDIO_DIR}", f"{unique_id}.ogg"))
         # list_of_sources.append(f"{unique_id}.ogg")
         print(f"Uploaded file: {file.filename} as {unique_id}.ogg")
 
         # Step 2: Create a .jet file for each .ogg, name it with the same ID, and place it in the Spectrum folder
-        if not find_template(earwax_dir):
-            original_template = f"{earwax_dir}22740.jet"
-            target = f"{earwax_dir}{BASE_EARWAX_SPECTRUM_DIR}Template.jet"
+        if not find_template(f"{BASE_EARWAX}{BASE_EARWAX_SPECTRUM_DIR}"):
+            original_template = f"{BASE_EARWAX}{BASE_EARWAX_SPECTRUM_DIR}22740.jet"
+            target = f"{BASE_EARWAX}{BASE_EARWAX_SPECTRUM_DIR}Template.jet"
             try:
                 shutil.copy(f"{original_template}", target)
             except Exception as error:
                 print({error})
-        target = f"{earwax_dir}{BASE_EARWAX_SPECTRUM_DIR}{unique_id}.jet"
+        target = f"{BASE_EARWAX}{BASE_EARWAX_SPECTRUM_DIR}{unique_id}.jet"
         try:
-            shutil.copy(f"{earwax_dir}{TEMPLATE_SPECTRUM}", target)
+            shutil.copy(f"{BASE_EARWAX}{TEMPLATE_SPECTRUM}", target)
         except Exception as error:
             print({error})
 
         # Step 3: Append the file's .json data to the master file EarwaxAudio.jet
-        add_new_object(earwax_audio_jet, os.path.splitext(file.filename)[0], unique_id, "cartoon")
+        add_new_object(f"{BASE_EARWAX}{BASE_EARWAX_JET_FILE}", os.path.splitext(file.filename)[0], unique_id, "cartoon")
         # Done!
     output = f"{num_files} file(s) added successfully!"
     return jsonify({"output": output})
