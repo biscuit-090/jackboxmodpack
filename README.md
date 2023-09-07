@@ -12,9 +12,10 @@ First, make sure you have [Node](https://nodejs.org/en/download) and [Python 3](
   - **Note**: this command may take a couple minutes to finish as it's building a giant Windows compatible program for your convenience and we all know how lovely Windows is. If you think it's stuck it's not. Let it cook.
 4. Next, `cd` into the newly built folder `jackboxmodpack-win32-x64`
 5. Establish 2 servers in 2 separate terminals:
-  - Open two command prompts or powershells and `cd` into `jackboxmodpack-main\jackboxmodpack-main` on both of your terminals.
-  - Run `serve -s build` on the first one.
-  - Run `python app.py` on the second one.
+  - Open two command prompts or powershells and `cd` into `jackboxmodpack-main\jackboxmodpack-main` on the first terminal.
+  - Run `serve -s build`.
+  - `cd` into `jackboxmodpack-main\jackboxmodpack-main\server` on the second terminal.
+  - Run `python app.py`.
     - Running both of these servers is meant to be automatically taken care of when you simply double click the .exe but imma automate this shit later I need sleep and nourishment and like other human shit rn.
 6. Double click that `.exe` biotch!!
 
