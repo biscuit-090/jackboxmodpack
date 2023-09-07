@@ -103,7 +103,7 @@ const MainContent: React.FC<MainContentProps> = ({ styles }) => {
   }
 
   return transitions((style: any, item) => (
-    <animated.div style={style}>
+    <animated.div style={{...style}}>
       <Routes location={item}>
         <Route path="/pack1" element={<Pack1 />} />
         <Route path="/pack1/drawful" element={<Pack1Drawful />} />

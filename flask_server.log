@@ -966,3 +966,2396 @@ Press CTRL+C to quit
  * Restarting with watchdog (windowsapi)
  * Debugger is active!
  * Debugger PIN: 647-564-502
+127.0.0.1 - - [06/Sep/2023 23:43:33] "GET /run-python-code HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2023 23:43:51] "GET /run-python-code HTTP/1.1" 200 -
+127.0.0.1 - - [06/Sep/2023 23:44:09] "GET /run-python-code HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [06/Sep/2023 23:44:48] "GET /run-python-code HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [06/Sep/2023 23:46:02] "GET /run-python-code HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [06/Sep/2023 23:47:01] "GET /run-python-code HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\datetime.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\tkinter\\filedialog.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\tkinter\\commondialog.py', reloading
+127.0.0.1 - - [06/Sep/2023 23:50:10] "GET /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 15, in pack_2_earwax
+    BASE_EARWAX_DIR = search_for_path()
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 12, in search_for_path
+    path = filedialog.askdirectory(parent=browse_dir, initialdir=curr_dir, title="Select EarWax directory")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 442, in askdirectory
+    return Directory(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+Welcome to WaxOgg, you'll be asked a couple stuff, just follow the instructions and you'll be fine
+
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:03:16] "GET /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:10:03] "GET /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+127.0.0.1 - - [07/Sep/2023 00:11:10] "GET /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 29, in pack_2_earwax
+    list_of_sources = search_for_file_path()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 24, in search_for_file_path
+    files = filedialog.askopenfilenames(filetypes=[("OGG files", "*.ogg")], parent=browse_file,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 400, in askopenfilenames
+    return Open(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+    __          __         ____                     ___    ___  
+    \ \        / /        / __ \                   |__ \  / _ \ 
+    \ \  /\  / /_ ___  _| |  | | __ _  __ _  __   __ ) || | | |
+    \ \/  \/ / _` \ \/ / |  | |/ _` |/ _` | \ \ / // / | | | |
+        \  /\  / (_| |>  <| |__| | (_| | (_| |  \ V // /_ | |_| |
+        \/  \/ \__,_/_/\_\____/ \__, |\__, |   \_/|____(_)___/ 
+                                __/ | __/ |                   
+                                |___/ |___/                    
+    
+Please select your custom .ogg audio files.
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:11:24] "GET /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 29, in pack_2_earwax
+    list_of_sources = search_for_file_path()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 24, in search_for_file_path
+    files = filedialog.askopenfilenames(filetypes=[("OGG files", "*.ogg")], parent=browse_file,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 400, in askopenfilenames
+    return Open(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\scaffold.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+    __          __         ____                     ___    ___  
+    \ \        / /        / __ \                   |__ \  / _ \ 
+    \ \  /\  / /_ ___  _| |  | | __ _  __ _  __   __ ) || | | |
+    \ \/  \/ / _` \ \/ / |  | |/ _` |/ _` | \ \ / // / | | | |
+        \  /\  / (_| |>  <| |__| | (_| | (_| |  \ V // /_ | |_| |
+        \/  \/ \__,_/_/\_\____/ \__, |\__, |   \_/|____(_)___/ 
+                                __/ | __/ |                   
+                                |___/ |___/                    
+    
+Please select your custom .ogg audio files.
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:12:42] "GET /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 29, in pack_2_earwax
+    list_of_sources = search_for_file_path()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 24, in search_for_file_path
+    files = filedialog.askopenfilenames(filetypes=[("OGG files", "*.ogg")], parent=browse_file,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 400, in askopenfilenames
+    return Open(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+    __          __         ____                     ___    ___  
+    \ \        / /        / __ \                   |__ \  / _ \ 
+    \ \  /\  / /_ ___  _| |  | | __ _  __ _  __   __ ) || | | |
+    \ \/  \/ / _` \ \/ / |  | |/ _` |/ _` | \ \ / // / | | | |
+        \  /\  / (_| |>  <| |__| | (_| | (_| |  \ V // /_ | |_| |
+        \/  \/ \__,_/_/\_\____/ \__, |\__, |   \_/|____(_)___/ 
+                                __/ | __/ |                   
+                                |___/ |___/                    
+    
+Please select your custom .ogg audio files.
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:14:57] "GET /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:15:19] "GET /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 00:15:19] "GET /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:17:53] "GET /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 29, in pack_2_earwax
+    list_of_sources = search_for_file_path()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 24, in search_for_file_path
+    files = filedialog.askopenfilenames(filetypes=[("OGG files", "*.ogg")], parent=browse_file,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 400, in askopenfilenames
+    return Open(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+ * Detected change in 'C:\\Python311\\Lib\\tkinter\\__init__.py', reloading
+    __          __         ____                     ___    ___  
+    \ \        / /        / __ \                   |__ \  / _ \ 
+    \ \  /\  / /_ ___  _| |  | | __ _  __ _  __   __ ) || | | |
+    \ \/  \/ / _` \ \/ / |  | |/ _` |/ _` | \ \ / // / | | | |
+        \  /\  / (_| |>  <| |__| | (_| | (_| |  \ V // /_ | |_| |
+        \/  \/ \__,_/_/\_\____/ \__, |\__, |   \_/|____(_)___/ 
+                                __/ | __/ |                   
+                                |___/ |___/                    
+    
+Please select your custom .ogg audio files.
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:23:09] "GET /upload HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 00:23:09] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [07/Sep/2023 00:23:17] "POST /upload HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+You chose bad-to-the-bone.ogg as a source
+You chose im-dead-ahh-tf2-scout.ogg as a source
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:29:28] "POST /pack2earwax HTTP/1.1" 405 -
+127.0.0.1 - - [07/Sep/2023 00:30:28] "POST /pack2earwax HTTP/1.1" 405 -
+127.0.0.1 - - [07/Sep/2023 00:31:09] "POST /pack2earwax HTTP/1.1" 405 -
+127.0.0.1 - - [07/Sep/2023 00:31:33] "POST /pack2earwax HTTP/1.1" 405 -
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\AppData\\Roaming\\Python\\Python311\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\typing.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:37:52] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 61, in pack_2_earwax
+    list_of_sources = search_for_file_path()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 24, in search_for_file_path
+    files = filedialog.askopenfilenames(filetypes=[("OGG files", "*.ogg")], parent=browse_file,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 400, in askopenfilenames
+    return Open(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\V2 GUI.py', reloading
+    __          __         ____                     ___    ___  
+    \ \        / /        / __ \                   |__ \  / _ \ 
+    \ \  /\  / /_ ___  _| |  | | __ _  __ _  __   __ ) || | | |
+    \ \/  \/ / _` \ \/ / |  | |/ _` |/ _` | \ \ / // / | | | |
+        \  /\  / (_| |>  <| |__| | (_| | (_| |  \ V // /_ | |_| |
+        \/  \/ \__,_/_/\_\____/ \__, |\__, |   \_/|____(_)___/ 
+                                __/ | __/ |                   
+                                |___/ |___/                    
+    
+Please select your custom .ogg audio files.
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:40:34] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 71, in pack_2_earwax
+    list_of_sources = search_for_file_path()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 24, in search_for_file_path
+    files = filedialog.askopenfilenames(filetypes=[("OGG files", "*.ogg")], parent=browse_file,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 400, in askopenfilenames
+    return Open(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+127.0.0.1 - - [07/Sep/2023 00:43:54] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 71, in pack_2_earwax
+    list_of_sources = search_for_file_path()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 24, in search_for_file_path
+    files = filedialog.askopenfilenames(filetypes=[("OGG files", "*.ogg")], parent=browse_file,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 400, in askopenfilenames
+    return Open(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py', reloading
+Uploaded file: bad-to-the-bone.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+    __          __         ____                     ___    ___  
+    \ \        / /        / __ \                   |__ \  / _ \ 
+    \ \  /\  / /_ ___  _| |  | | __ _  __ _  __   __ ) || | | |
+    \ \/  \/ / _` \ \/ / |  | |/ _` |/ _` | \ \ / // / | | | |
+        \  /\  / (_| |>  <| |__| | (_| | (_| |  \ V // /_ | |_| |
+        \/  \/ \__,_/_/\_\____/ \__, |\__, |   \_/|____(_)___/ 
+                                __/ | __/ |                   
+                                |___/ |___/                    
+    
+Please select your custom .ogg audio files.
+Uploaded file: bad-to-the-bone.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+    __          __         ____                     ___    ___  
+    \ \        / /        / __ \                   |__ \  / _ \ 
+    \ \  /\  / /_ ___  _| |  | | __ _  __ _  __   __ ) || | | |
+    \ \/  \/ / _` \ \/ / |  | |/ _` |/ _` | \ \ / // / | | | |
+        \  /\  / (_| |>  <| |__| | (_| | (_| |  \ V // /_ | |_| |
+        \/  \/ \__,_/_/\_\____/ \__, |\__, |   \_/|____(_)___/ 
+                                __/ | __/ |                   
+                                |___/ |___/                    
+    
+Please select your custom .ogg audio files.
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\os.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\abc.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\collections\\abc.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\contextlib.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\io.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\subprocess.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\typing_extensions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:50:45] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 55, in pack_2_earwax
+    file.save(os.path.join("path/to/save", file.filename + ' fuck you'))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'path/to/save\\bad-to-the-bone.ogg fuck you'
+127.0.0.1 - - [07/Sep/2023 00:51:17] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 55, in pack_2_earwax
+    file.save(os.path.join("path/to/save", file.filename + ' fuck you'))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'path/to/save\\bad-to-the-bone.ogg fuck you'
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:52:06] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 55, in pack_2_earwax
+    file.save(os.path.join("path/to/save", file.filename))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'path/to/save\\bad-to-the-bone.ogg'
+127.0.0.1 - - [07/Sep/2023 00:52:27] "GET / HTTP/1.1" 404 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:53:38] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 55, in pack_2_earwax
+    file.save(os.path.join("Downloads/", file.filename))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Downloads/bad-to-the-bone.ogg'
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:54:29] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 55, in pack_2_earwax
+    file.save(os.path.join("Downloads\\", file.filename))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Downloads\\bad-to-the-bone.ogg'
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:55:08] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 56, in pack_2_earwax
+    file.save(os.path.join("Downloads\\", file.filename))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Downloads\\bad-to-the-bone.ogg'
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:56:10] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 56, in pack_2_earwax
+    file.save(os.path.join("C:\"", file.filename))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'C:"\\bad-to-the-bone.ogg'
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 00:56:31] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 00:58:03] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 00:58:45] "GET / HTTP/1.1" 404 -
+127.0.0.1 - - [07/Sep/2023 00:59:06] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 00:59:30] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 00:59:53] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:00:18] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Python311\\Lib\\ntpath.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:01:45] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:02:32] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:02:54] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:06:34] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:07:09] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:07:30] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:07:57] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\blueprints.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\config.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\ctx.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\helpers.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\signals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\templating.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:10:19] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:19:37] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:20:55] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:21:22] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:26:53] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: bad-to-the-bone.ogg
+C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack
+Uploaded file: im-dead-ahh-tf2-scout.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:39:45] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:40:05] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:40:12] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 79686.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 73004.ogg
+Uploaded file: bad-to-the-bone.ogg as 61669.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 71653.ogg
+Uploaded file: bad-to-the-bone.ogg as 61662.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:40:33] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:43:13] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:43:55] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:44:55] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:45:35] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Python311\\Lib\\random.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 69115.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 50126.ogg
+Uploaded file: bad-to-the-bone.ogg as 66707.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 72304.ogg
+Uploaded file: bad-to-the-bone.ogg as 61627.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 70923.ogg
+Uploaded file: bad-to-the-bone.ogg as 63960.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 77581.ogg
+Uploaded file: bad-to-the-bone.ogg as 66737.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 64984.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:48:02] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 01:48:54] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+hello there
+Uploaded file: bad-to-the-bone.ogg as 58434.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 66998.ogg
+hello there
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 69199.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 01:52:49] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+hello there
+Uploaded file: bad-to-the-bone.ogg as 59377.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 71341.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\genericpath.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 02:03:16] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:04:12] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:04:30] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:04:46] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:05:27] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:06:17] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:26:30] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:26:31] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:26:32] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:30:24] "GET /pack2earwax HTTP/1.1" 405 -
+127.0.0.1 - - [07/Sep/2023 02:31:03] "GET /pack2earwax HTTP/1.1" 405 -
+127.0.0.1 - - [07/Sep/2023 02:31:04] "GET /pack2earwax HTTP/1.1" 405 -
+127.0.0.1 - - [07/Sep/2023 02:31:05] "GET /pack2earwax HTTP/1.1" 405 -
+127.0.0.1 - - [07/Sep/2023 02:35:13] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 57435.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 62387.ogg
+Uploaded file: bad-to-the-bone.ogg as 57471.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 57351.ogg
+Uploaded file: bad-to-the-bone.ogg as 60711.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 72528.ogg
+Uploaded file: bad-to-the-bone.ogg as 52779.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 65493.ogg
+Uploaded file: bad-to-the-bone.ogg as 55064.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 76271.ogg
+Uploaded file: bad-to-the-bone.ogg as 69742.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 56768.ogg
+Uploaded file: bad-to-the-bone.ogg as 53584.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 54645.ogg
+Uploaded file: bad-to-the-bone.ogg as 59563.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 61126.ogg
+Uploaded file: bad-to-the-bone.ogg as 78466.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 75140.ogg
+Uploaded file: bad-to-the-bone.ogg as 50971.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 57331.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 02:52:52] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:52:53] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 02:52:59] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 75917.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 79978.ogg
+Uploaded file: bad-to-the-bone.ogg as 72988.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 58002.ogg
+Uploaded file: bad-to-the-bone.ogg as 54591.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 54355.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 03:12:08] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:12:30] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:23:12] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:24:00] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:25:09] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:25:28] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:30:00] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 78405.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 56779.ogg
+Uploaded file: bad-to-the-bone.ogg as 63608.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 63393.ogg
+Uploaded file: bad-to-the-bone.ogg as 56545.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 77864.ogg
+Uploaded file: bad-to-the-bone.ogg as 64257.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 54403.ogg
+Uploaded file: bad-to-the-bone.ogg as 70175.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 77299.ogg
+Uploaded file: bad-to-the-bone.ogg as 61087.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 54629.ogg
+Uploaded file: bad-to-the-bone.ogg as 67628.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 54689.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 03:31:13] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:34:34] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:35:02] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:35:28] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:35:59] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:36:07] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:36:38] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:37:18] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 54797.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 58524.ogg
+Uploaded file: bad-to-the-bone.ogg as 52889.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 59684.ogg
+Uploaded file: bad-to-the-bone.ogg as 58598.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 57911.ogg
+Uploaded file: bad-to-the-bone.ogg as 72899.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 63632.ogg
+Uploaded file: bad-to-the-bone.ogg as 67475.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 59142.ogg
+Uploaded file: bad-to-the-bone.ogg as 68048.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 56745.ogg
+Uploaded file: bad-to-the-bone.ogg as 66355.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 76312.ogg
+Uploaded file: bad-to-the-bone.ogg as 79004.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 62511.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 03:37:45] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:37:51] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:37:59] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 55528.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 77418.ogg
+Uploaded file: bad-to-the-bone.ogg as 50146.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 66150.ogg
+Uploaded file: bad-to-the-bone.ogg as 77230.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 63527.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 03:38:21] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:38:33] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:38:39] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:38:46] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:39:08] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:39:32] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:39:59] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:40:10] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:40:16] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:40:39] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:40:45] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 03:45:44] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 64613.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 73508.ogg
+Uploaded file: bad-to-the-bone.ogg as 69414.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 53715.ogg
+Uploaded file: bad-to-the-bone.ogg as 56215.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 66190.ogg
+Uploaded file: bad-to-the-bone.ogg as 75736.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 74773.ogg
+Uploaded file: bad-to-the-bone.ogg as 77667.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 51314.ogg
+Uploaded file: bad-to-the-bone.ogg as 78553.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 55802.ogg
+Uploaded file: bad-to-the-bone.ogg as 63910.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 50100.ogg
+Uploaded file: bad-to-the-bone.ogg as 50093.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 74318.ogg
+Uploaded file: bad-to-the-bone.ogg as 79525.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 68370.ogg
+Uploaded file: bad-to-the-bone.ogg as 52847.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 74934.ogg
+Uploaded file: bad-to-the-bone.ogg as 76789.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 61858.ogg
+Uploaded file: bad-to-the-bone.ogg as 65253.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 79756.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 03:46:30] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 61641.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 60134.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 04:12:50] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 04:38:31] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 72829.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 65936.ogg
+Uploaded file: bad-to-the-bone.ogg as 65357.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 64468.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 04:47:35] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 04:52:15] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 04:54:56] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 57376.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 69943.ogg
+Uploaded file: bad-to-the-bone.ogg as 67261.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 54778.ogg
+Uploaded file: bad-to-the-bone.ogg as 54052.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 69830.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 04:59:46] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 50511.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 74591.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\typing.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\tkinter\\filedialog.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOggV2.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\ntpath.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\encodings\\cp1252.py', reloading
+127.0.0.1 - - [07/Sep/2023 06:14:57] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 21, in pack_2_earwax
+    format_jet_file(file_path)
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 50, in format_jet_file
+    content = f.read()
+              ^^^^^^^^
+  File "C:\Python311\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 2199: character maps to <undefined>
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 06:15:12] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 21, in pack_2_earwax
+    format_jet_file(file_path)
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 50, in format_jet_file
+    content = f.read()
+              ^^^^^^^^
+  File "C:\Python311\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 2199: character maps to <undefined>
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 06:16:07] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 22, in pack_2_earwax
+    format_jet_file(file_path)
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 51, in format_jet_file
+    content = f.read()
+              ^^^^^^^^
+  File "C:\Python311\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 2199: character maps to <undefined>
+ * Detected change in 'C:\\Python311\\Lib\\datetime.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\json\\__init__.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 06:17:23] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 35, in pack_2_earwax
+    format_jet_file(file_path)
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 19, in format_jet_file
+    content = f.read()
+              ^^^^^^^^
+  File "C:\Python311\Lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x9d in position 2199: character maps to <undefined>
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 06:18:58] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 77038.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 70624.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 06:25:22] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 60721.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 56664.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 06:42:04] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 06:42:31] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 63469.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 70376.ogg
+Uploaded file: bad-to-the-bone.ogg as 52218.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 57335.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 06:56:35] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 79745.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 53205.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\json\\decoder.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 07:12:00] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 58108.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 78764.ogg
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\typing.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\WaxOgg.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 07:30:48] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Python311\\Lib\\abc.py', reloading
+Uploaded file: bad-to-the-bone.ogg as 53993.ogg
+Uploaded file: im-dead-ahh-tf2-scout.ogg as 59532.ogg
+Template was found
+
+53993.ogg
+You either gave no source or the file was not an OGG
+
+Stack trace: 'NoneType' object has no attribute 'group' 
+
+You either gave no source/directory or the file was not an OGG
+
+Stack trace: [Errno 2] No such file or directory: '53993.ogg' 
+
+Added new entry for 53993.ogg as None with 53347 ID
+
+59532.ogg
+You either gave no source or the file was not an OGG
+
+Stack trace: 'NoneType' object has no attribute 'group' 
+
+You either gave no source/directory or the file was not an OGG
+
+Stack trace: [Errno 2] No such file or directory: '59532.ogg' 
+
+Added new entry for 59532.ogg as None with 71864 ID
+
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 07:36:53] "POST /pack2earwax HTTP/1.1" 200 -
+127.0.0.1 - - [07/Sep/2023 07:37:23] "POST /pack2earwax HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Template was found
+
+Template was found
+
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\tkinter\\filedialog.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\tkinter\\commondialog.py', reloading
+127.0.0.1 - - [07/Sep/2023 07:39:54] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 70, in pack_2_earwax
+    list_of_sources = search_for_file_path()
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 24, in search_for_file_path
+    files = filedialog.askopenfilenames(filetypes=[("OGG files", "*.ogg")], parent=browse_file,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 400, in askopenfilenames
+    return Open(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\actions.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 07:48:28] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 49, in pack_2_earwax
+    BASE_EARWAX_DIR = search_for_path()
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 12, in search_for_path
+    path = filedialog.askdirectory(parent=browse_dir, initialdir=curr_dir, title="Select EarWax directory")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 442, in askdirectory
+    return Directory(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+127.0.0.1 - - [07/Sep/2023 07:53:31] "GET /pack2earwax HTTP/1.1" 405 -
+127.0.0.1 - - [07/Sep/2023 07:54:21] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 49, in pack_2_earwax
+    BASE_EARWAX_DIR = search_for_path()
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 12, in search_for_path
+    path = filedialog.askdirectory(parent=browse_dir, initialdir=curr_dir, title="Select EarWax directory")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 442, in askdirectory
+    return Directory(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+127.0.0.1 - - [07/Sep/2023 07:54:59] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 49, in pack_2_earwax
+    BASE_EARWAX_DIR = search_for_path()
+                      ^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\GUI.py", line 12, in search_for_path
+    path = filedialog.askdirectory(parent=browse_dir, initialdir=curr_dir, title="Select EarWax directory")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\filedialog.py", line 442, in askdirectory
+    return Directory(**options).show()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\tkinter\commondialog.py", line 45, in show
+    s = master.tk.call(self.command, *master._options(self.options))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: main thread is not in main loop
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+Welcome to WaxOgg, you'll be asked a couple stuff, just follow the instructions and you'll be fine
+
+Welcome to WaxOgg, you'll be asked a couple stuff, just follow the instructions and you'll be fine
+
+Welcome to WaxOgg, you'll be asked a couple stuff, just follow the instructions and you'll be fine
+
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\file_storage.py', reloading
+127.0.0.1 - - [07/Sep/2023 07:59:08] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 63, in pack_2_earwax
+    file.save(os.path.join(BASE_EARWAX_AUDIO_DIR, f"{unique_id}.ogg"))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/EarwaxAudio/Audio/55419.ogg'
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 07:59:57] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 63, in pack_2_earwax
+    file.save(os.path.join(BASE_EARWAX_AUDIO_DIR, f"{unique_id}.ogg"))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/EarwaxAudio/Audio/65941.ogg'
+127.0.0.1 - - [07/Sep/2023 08:00:08] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 63, in pack_2_earwax
+    file.save(os.path.join(BASE_EARWAX_AUDIO_DIR, f"{unique_id}.ogg"))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/EarwaxAudio/Audio/51944.ogg'
+127.0.0.1 - - [07/Sep/2023 08:00:10] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 63, in pack_2_earwax
+    file.save(os.path.join(BASE_EARWAX_AUDIO_DIR, f"{unique_id}.ogg"))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/EarwaxAudio/Audio/75129.ogg'
+127.0.0.1 - - [07/Sep/2023 08:00:54] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 63, in pack_2_earwax
+    file.save(os.path.join(BASE_EARWAX_AUDIO_DIR, f"{unique_id}.ogg"))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/EarwaxAudio/Audio/77841.ogg'
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\GUI.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 08:03:26] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 62, in pack_2_earwax
+    file.save(os.path.join(BASE_EARWAX_AUDIO_DIR, f"{unique_id}.ogg"))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/EarwaxAudio/Audio/53842.ogg'
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+127.0.0.1 - - [07/Sep/2023 08:04:07] "POST /pack2earwax HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 60, in pack_2_earwax
+    file.save(os.path.join(BASE_EARWAX_AUDIO_DIR, f"{unique_id}.ogg"))
+  File "C:\Python311\Lib\site-packages\werkzeug\datastructures\file_storage.py", line 125, in save
+    dst = open(dst, "wb")
+          ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/content/EarwaxAudio/Audio/56333.ogg'
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Python311\\Lib\\random.py', reloading
+ * Restarting with watchdog (windowsapi)
+ * Debugger is active!
+ * Debugger PIN: 647-564-502
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Detected change in 'C:\\Users\\rjfar\\OneDrive\\Desktop\\jackboxmodpack\\server\\app.py', reloading
+ * Restarting with watchdog (windowsapi)
+  File "C:\Users\rjfar\OneDrive\Desktop\jackboxmodpack\server\app.py", line 67
+    original_template = f"{}{BASE_EARWAX_SPECTRUM_DIR}22740.jet"
+                                                                ^
+SyntaxError: f-string: empty expression not allowed

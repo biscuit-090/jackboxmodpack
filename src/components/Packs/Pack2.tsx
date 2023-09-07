@@ -2,7 +2,11 @@ import { useState, useEffect } from "react";
 import ImageLink from "../ImageLink";
 import NotAvailable from "../NotAvailable";
 import PageHeader from "../PageHeader";
-import { MediumTitle, SmallTitle } from "../Titles";
+import LargeTitle, { MediumTitle, SmallTitle } from "../Titles";
+import Description from "../Description";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle, faCode, faXmarkCircle } from "@fortawesome/free-solid-svg-icons";
+import './Packs.css';
 
 interface PackProps {
 
@@ -54,28 +58,97 @@ interface ApiResponse {
 }
 const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
   const [output, setOutput] = useState<string | null>(null);
+  const [selectedFiles, setSelectedFiles] = useState<FileList | null>(null);
+  const [showSpinner, setShowSpinner] = useState(false);
 
-  const fetchOutput = async () => {
+  let badrequest = false;
+
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setSelectedFiles(event.target.files);
+  }
+
+  const handleUpload = async () => {
+    setShowSpinner(true);
+    if (!selectedFiles) {
+      setOutput("No files selected");
+      setShowSpinner(false);
+      return;
+    }
+
+    const formData = new FormData();
+    for (let i = 0; i < selectedFiles.length; i++) {
+      formData.append('oggFiles', selectedFiles[i]);
+    }
+
     try {
-      const response = await fetch('http://localhost:5000/run-python-code');
-      if (!response.ok) {
+      const response = await fetch('http://localhost:5000/pack2earwax', {
+        method: 'POST',
+        body: formData,
+      });
+
+      if (response.status !== 200) {
+        console.log('Unexpected status code:', response.status);
         throw new Error("Network response was not ok");
-      }
+     }
+     if (response.status == 200) {
+      badrequest = false;
+        setOutput(output)
+     }
+     
       const data: ApiResponse = await response.json();
       setOutput(data.output);
     } catch (error) {
-      console.error("There was an error fetching the data", error);
-      setOutput("Error fetching data");
-    }
+      badrequest = true;
+      console.error(error);
+      setOutput("Error uploading files");
+    } setTimeout(() => {
+      setShowSpinner(false);
+    }, 0);
   }
+
   return (
-    <div style={{padding: '15px', flexDirection: 'column', alignItems: 'center', width: '100%'}}>
+    <div style={{display: 'flex', padding: '15px', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%'}}>
       <PageHeader text="Jackbox Party Pack 2 > Earwax" styles={{width: '100%'}} />
-      <button onClick={fetchOutput}>Run Python Code</button>
-      {output && <SmallTitle text={output}/>}
+      <LargeTitle text="Earwax Mods" styles={{margin: '20px 0 0 0'}}/>
+      <div style={{display: 'flex', flexDirection: 'column', marginTop: '30px', alignItems: 'center', justifyContent: 'center', background: '#222', borderRadius: '8px', padding: '20px', width: '95%'}}>
+        <MediumTitle text="Custom Audio Files" styles={{margin: '0 0 10px 0'}}/>
+        <Description text="Upload custom audio files (.ogg) to Earwax to be randomly distributed to players." styles={{margin: '0 0 25px 0'}}/>
+
+        <input type="file" accept=".ogg" multiple onChange={handleFileChange} style={{color: 'white', fontFamily: 'Inter', fontSize: '20px', width: '300px', marginLeft: '30px'}}/>
+        <span style={{color: '#999', fontFamily: 'Inter', fontWeight: 600, fontSize: '16px', marginTop: '15px'}}>Supported file types: .ogg</span>
+
+        <button onClick={handleUpload} style={{marginTop: '20px', width: '25%'}}>Upload Files</button>
+        {showSpinner && <div className={`spinner ${!showSpinner ? 'fadeOut' : ''}`}></div>}
+        {output && 
+          <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}}>
+            {badrequest ? 
+            <div style={{display: 'flex', alignItems: 'center', marginTop: '15px'}}>
+              <FontAwesomeIcon icon={faXmarkCircle} style={{fontSize: '25px', color: 'red'}}/>
+              <Description text={output || 'Uploading...'} styles={{color: 'red', margin: '0 0 0 10px', fontWeight: 600}}/>
+            </div>
+            : 
+            <div style={{display: 'flex', alignItems: 'center', marginTop: '15px'}}>
+              <FontAwesomeIcon icon={faCheckCircle} style={{fontSize: '25px', color: 'limegreen'}}/>
+              <Description text={output || 'Uploading...'} styles={{color: 'limegreen', margin: '0 0 0 10px', fontWeight: 600}}/>
+            </div>
+            }
+          </div>
+        }
+      </div>
+
+      <div style={{display: 'flex', flexDirection: 'column', marginTop: '20px', alignItems: 'center', justifyContent: 'center', background: '#222', borderRadius: '8px', padding: '20px', width: '95%', opacity: 0.4}}>
+        <MediumTitle text="Custom Voice Prompts" styles={{margin: '0 0 10px 0'}}/>
+        <Description text="Upload custom audio files (.ogg) to Earwax to be randomly distributed to players." styles={{margin: '0 0 15px 0'}}/>
+        <div style={{display: 'flex', alignItems: 'center'}}>
+          <FontAwesomeIcon icon={faCode} style={{fontSize: '20px', color: 'dodgerblue', marginRight: '10px'}} />
+          <SmallTitle text="In Development" styles={{margin: 0}}/>
+        </div>
+        
+      </div>
     </div>
   );
 }
+
 
 const Pack2Fibbage2: React.FC<PackSubProps> = ({  }) => {
   return (
