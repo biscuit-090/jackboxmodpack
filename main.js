@@ -51,6 +51,10 @@ app.on('activate', () => {
   }
 });
 
+app.on('will-quit', () => {
+  flaskProcess.kill();
+});
+
 // Start Flask server when the Electron app starts
 exec('python server/app.py', (error, stdout, stderr) => {
   if (error) {
