@@ -12,7 +12,7 @@ First, make sure you have [Node](https://nodejs.org/en/download) and [Python 3](
   - **Note**: this command may take a couple of minutes to finish. If you think it's stuck it's not. Let it cook.
 4.  Open two fresh command prompts or powershells.
   - `cd` into `jackboxmodpack-main\jackboxmodpack-main` on the first terminal.
-  - Run `serve -s build`.
+  - Run `npx serve -s build`.
   - `cd` into `jackboxmodpack-main\jackboxmodpack-main\server` on the second terminal.
   - Run `python app.py`.
     - Running both of these servers will be automatic in the future but for now you gotta run 'em both manually. Do not close either terminal while the software is running or it will crash.
