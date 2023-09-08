@@ -1,7 +1,8 @@
 ## How to Use
 First, make sure you have [Node](https://nodejs.org/en/download) and [Python 3](https://www.python.org/downloads/) or higher installed.
+Second, this software is only compatible with Windows 10+ at the moment. Linux support to be added in the future.
 1. Download and extract the .zip of this project: **Code > Download ZIP**
-2. Open a terminal (cmd, powershell, git bash, etc.) and `cd` two folders deep into the extracted zip folder (you should be in `jackboxmodpack-main\jackboxmodpack-main`)
+2. Open a terminal (cmd, powershell, etc.) and `cd` two folders deep into the extracted zip folder (you should be in `jackboxmodpack-main\jackboxmodpack-main`)
 3. Run the following commands in order, *one at a time*:
 - `npm install`
 - `npm install -g serve`
