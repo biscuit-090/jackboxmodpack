@@ -5,6 +5,8 @@ First, make sure you have [Node](https://nodejs.org/en/download) and [Python 3](
 3. Run the following commands in order:
 - `npm install`
   - this installs packages, dependencies, and other cool shit
+- `pip install -r requirements.txt`
+  - installs more packages but for python
 - `npm run build`
   - this builds a condensed version of the app
 - `npx electron-packager . jackboxmodpack --platform=win32 --arch=x64`
