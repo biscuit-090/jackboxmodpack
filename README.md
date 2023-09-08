@@ -2,7 +2,7 @@
 First, make sure you have [Node](https://nodejs.org/en/download) and [Python 3](https://www.python.org/downloads/) or higher installed.
 1. Download and extract the .zip of this project: **Code > Download ZIP**
 2. Open a terminal (cmd, powershell, git bash, etc.) and `cd` two folders deep into the extracted zip folder (you should be in `jackboxmodpack-main\jackboxmodpack-main`)
-3. Run the following commands in order:
+3. Run the following commands in order, *one at a time*:
 - `npm install`
 - `npm install -g serve`
 - `pip install -r requirements.txt`
