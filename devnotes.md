@@ -7,8 +7,7 @@
       All Jackbox games seem to have files formatted as JSON data with the extension <code>.jet</code>. This file extension is exclusive to Jackbox games and isn't seen in use anywhere else in any current or past software according to Wikipedia and ChatGPT.
     </li>
     <li>
-      Every <code>.jet</code> file controls critical information in-game regarding what's displayed, what audio files get played, and what attributes each player in the game may have such as <code>
-      {alive: False}</code> for when you've died in Trivia Murder Party.
+      Every <code>.jet</code> file controls critical information in-game regarding what's displayed, what audio files get played, and what attributes each player in the game may have such as <code>{alive: false}</code> for when you've died in Trivia Murder Party.
     </li>
     <li>
       Mods that do not edit <code>.jet</code> files are more invasive and complex to create but can result in far more freedom compared to what you can achieve otherwise.
@@ -79,17 +78,23 @@
   <b>Step 1:</b>
   <p>Get the earwax directory from the user's game.</p>
   <blockquote><b>Note:</b> Jackbox games can be downloaded from Steam or downloaded separately so do not use a static path. Make sure to provide a window that allows the user to choose the folder where their game is located.</blockquote>
-  <br>
   <b>Step 2:</b>
   <p>Get the input audio files (.ogg) from the user's system.</p>
   <b>Step 3:</b>
-  <li>Generate copies of the user-provided .ogg files with their file names changed to unique ID numbers between <code>20000</code> and <code>50000</code>. Place these new files under <code>../Earwax/content/EarwaxAudio/Audio</code>. Numbers outside of the given range are reserved by other audio files within the game and should be avoided to prevent crashes.
+  <ul>
+  <li>
+    Generate copies of the user-provided .ogg files with their file names changed to unique ID numbers between <code>20000</code> and <code>50000</code>. Place these new files under <code>../Earwax/content/EarwaxAudio/Audio</code>. Numbers outside of the given range are reserved by other audio files within the game and should be avoided to prevent crashes.
   </li>
   <li>
     The <code>.jet</code> file <u>must be prettified</u> in JSON format before appending any information to it or the entire file will be deleted during any attempts to edit it since it's minified on one line by default. There are plenty of functions in Python, JavaScript, etc. that can automate the prettification for you to make this step easier.
   </li>
-  <li>Append the appropriate data for each new .ogg file to the <code>EarwaxAudio.jet</code> file inside the Spectrum folder. This is located one folder deep into the game's directory: <code>../Earwax/content/EarwaxAudio/Spectrum</code></li>
-  <li>Start the game and see if your new sounds worked. You can temporarily remove the game's sounds and only play your own by editing the <code>EarwaxAudio.jet</code> file and deleting any entries that aren't yours. Please note that you must leave at least 5 sounds per player in the <code>EarwaxAudio.jet</code> file or the game will crash.</li>
+  <li>
+    Append the appropriate data for each new .ogg file to the <code>EarwaxAudio.jet</code> file inside the Spectrum folder. This is located one folder deep into the game's directory: <code>../Earwax/content/EarwaxAudio/Spectrum</code>
+  </li>
+  <li>
+    Start the game and see if your new sounds worked. You can temporarily remove the game's sounds and only play your own by editing the <code>EarwaxAudio.jet</code> file and deleting any entries that aren't yours. Please note that you must leave at least 5 sounds per player in the <code>EarwaxAudio.jet</code> file or the game will crash.
+  </li>
+  </ul>
   <h2>Mod - Custom Voice Prompts</h2>
   <code>This is still being researched.</code>
   <br>
