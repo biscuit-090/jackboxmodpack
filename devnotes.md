@@ -1,6 +1,70 @@
 ## Development Notes
 <details>
-<summary>Jackbox Party Pack 1</summary>
+<summary><b>Research Notes</b></summary>
+  <h3>File type: <code>.jet</code></h3>
+  <ul>
+    <li>
+      All Jackbox games seem to have files formatted as JSON data with the extension <code>.jet</code>. This file extension is exclusive to Jackbox games and isn't seen in use anywhere else in any current or past software according to Wikipedia and ChatGPT.
+    </li>
+    <li>
+      Every <code>.jet</code> file controls critical information in-game regarding what's displayed, what audio files get played, and what attributes each player in the game may have such as <code>
+      {alive: False}</code> for when you've died in Trivia Murder Party.
+    </li>
+    <li>
+      Mods that do not edit <code>.jet</code> files are more invasive and complex to create but can result in far more freedom compared to what you can achieve otherwise.
+    </li>
+  </ul>
+  <h3>General Information</h3>
+    <ul>
+      <li>Jackbox games are all built and packaged using Autodesk's gaming oriented platform called <code>Autodesk Scaleform</code> which means their games come with very limited mod support, as most of the game's assets and files are inaccessible (with some exceptions).
+      </li>
+      <li>
+        Jackbox games also seem to use a middleware called <code>CRIWARE</code> which is very likely what they use to host their servers and make API calls so players can play via the internet using a four-letter code.
+      </li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>Jackbox Party Pack 1</b></summary>
+  <br>
+  <details>
+  <summary>Drawful</summary>
+  Notes on how to mod this game go here
+  </details>
+    
+  * * *
+  
+  <details>
+  <summary>FibbageXL</summary>
+  Notes on how to mod this game go here
+  </details>
+    
+  * * *
+  
+  <details>
+  <summary>Lie Swatter</summary>
+  Notes on how to mod this game go here
+  </details>
+    
+  * * *
+  
+  <details>
+  <summary>Word Spud</summary>
+  Notes on how to mod this game go here
+  </details>
+    
+  * * *
+  
+  <details>
+  <summary>You don't know Jack</summary>
+  Notes on how to mod this game go here
+  </details>
+    
+  * * *
+  
+</details>
+<details>
+<summary><b>Jackbox Party Pack 2</b></summary>
   <br>
   <details>
   <summary>Bidiots</summary>
@@ -10,28 +74,46 @@
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Earwax</summary>
+  <h2>Mod - Custom Audio Files</h2>
+  <b>Step 1:</b>
+  <p>Get the earwax directory from the user's game.</p>
+  <blockquote><b>Note:</b> Jackbox games can be downloaded from Steam or downloaded separately so do not use a static path. Make sure to provide a window that allows the user to choose the folder where their game is located.</blockquote>
+  <br>
+  <b>Step 2:</b>
+  <p>Get the input audio files (.ogg) from the user's system.</p>
+  <b>Step 3:</b>
+  <li>Generate copies of the user-provided .ogg files with their file names changed to unique ID numbers between <code>20000</code> and <code>50000</code>. Place these new files under <code>../Earwax/content/EarwaxAudio/Audio</code>. Numbers outside of the given range are reserved by other audio files within the game and should be avoided to prevent crashes.
+  </li>
+  <li>
+    The <code>.jet</code> file <u>must be prettified</u> in JSON format before appending any information to it or the entire file will be deleted during any attempts to edit it since it's minified on one line by default. There are plenty of functions in Python, JavaScript, etc. that can automate the prettification for you to make this step easier.
+  </li>
+  <li>Append the appropriate data for each new .ogg file to the <code>EarwaxAudio.jet</code> file inside the Spectrum folder. This is located one folder deep into the game's directory: <code>../Earwax/content/EarwaxAudio/Spectrum</code></li>
+  <li>Start the game and see if your new sounds worked. You can temporarily remove the game's sounds and only play your own by editing the <code>EarwaxAudio.jet</code> file and deleting any entries that aren't yours. Please note that you must leave at least 5 sounds per player in the <code>EarwaxAudio.jet</code> file or the game will crash.</li>
+  <h2>Mod - Custom Voice Prompts</h2>
+  <code>This is still being researched.</code>
+  <br>
+  <br>
+  </details>
+    
+  * * *
+  
+  <details>
+  <summary>Bomb Corp.</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Fibbage 2</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
-  Notes on how to mod this game go here
-  </details>
-    
-  * * *
-  
-  <details>
-  <summary>Bidiots</summary>
+  <summary>QuiplashXL</summary>
   Notes on how to mod this game go here
   </details>
     
@@ -39,38 +121,38 @@
   
 </details>
 <details>
-<summary>Jackbox Party Pack 2</summary>
+<summary><b>Jackbox Party Pack 3</b></summary>
   <br>
   <details>
-  <summary>Bidiots</summary>
+  <summary>Fakin' It</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Guesspionage</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Quiplash 2</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Tee K.O.</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Trivia Murder Party</summary>
   Notes on how to mod this game go here
   </details>
     
@@ -78,38 +160,38 @@
   
 </details>
 <details>
-<summary>Jackbox Party Pack 3</summary>
+<summary><b>Jackbox Party Pack 4</b></summary>
   <br>
   <details>
-  <summary>Bidiots</summary>
+  <summary>Bracketeering</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Civic Doodle</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Fibbage 3</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Monster Seeking Monster</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Survive the Internet</summary>
   Notes on how to mod this game go here
   </details>
     
@@ -117,38 +199,38 @@
   
 </details>
 <details>
-<summary>Jackbox Party Pack 4</summary>
+<summary><b>Jackbox Party Pack 5</b></summary>
   <br>
   <details>
-  <summary>Bidiots</summary>
+  <summary>Mad Verse City</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Patently Stupid</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Split the Room</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>You Don't Know Jack</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Zeeple Dome</summary>
   Notes on how to mod this game go here
   </details>
     
@@ -156,38 +238,38 @@
   
 </details>
 <details>
-<summary>Jackbox Party Pack 5</summary>
+<summary><b>Jackbox Party Pack 6</b></summary>
   <br>
   <details>
-  <summary>Bidiots</summary>
+  <summary>Dictionarium</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Joke Boat</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Push the Button</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Role Models</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Trivia Murder Party 2</summary>
   Notes on how to mod this game go here
   </details>
     
@@ -195,38 +277,38 @@
   
 </details>
 <details>
-<summary>Jackbox Party Pack 6</summary>
+<summary><b>Jackbox Party Pack 7</b></summary>
   <br>
   <details>
-  <summary>Bidiots</summary>
+  <summary>Blather Round</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Champ'd Up</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Devils and the Details</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Quiplash 3</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Talking Points</summary>
   Notes on how to mod this game go here
   </details>
     
@@ -234,38 +316,38 @@
   
 </details>
 <details>
-<summary>Jackbox Party Pack 7</summary>
+<summary><b>Jackbox Party Pack 8</b></summary>
   <br>
   <details>
-  <summary>Bidiots</summary>
+  <summary>Drawful Animate</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Job Job</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Poll Mine</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>The Wheel of Enormous Proportions</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Weapons Drawn</summary>
   Notes on how to mod this game go here
   </details>
     
@@ -273,38 +355,38 @@
   
 </details>
 <details>
-<summary>Jackbox Party Pack 8</summary>
+<summary><b>Jackbox Party Pack 9</b></summary>
   <br>
   <details>
-  <summary>Bidiots</summary>
+  <summary>Fibbage 4</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Junktopia</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Nonsensory</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Quixort</summary>
   Notes on how to mod this game go here
   </details>
     
   * * *
   
   <details>
-  <summary>Bidiots</summary>
+  <summary>Roomerang</summary>
   Notes on how to mod this game go here
   </details>
     
@@ -312,46 +394,7 @@
   
 </details>
 <details>
-<summary>Jackbox Party Pack 9</summary>
-  <br>
-  <details>
-  <summary>Bidiots</summary>
-  Notes on how to mod this game go here
-  </details>
-    
-  * * *
-  
-  <details>
-  <summary>Bidiots</summary>
-  Notes on how to mod this game go here
-  </details>
-    
-  * * *
-  
-  <details>
-  <summary>Bidiots</summary>
-  Notes on how to mod this game go here
-  </details>
-    
-  * * *
-  
-  <details>
-  <summary>Bidiots</summary>
-  Notes on how to mod this game go here
-  </details>
-    
-  * * *
-  
-  <details>
-  <summary>Bidiots</summary>
-  Notes on how to mod this game go here
-  </details>
-    
-  * * *
-  
-</details>
-<details>
-<summary>Jackbox Party Pack 10</summary>
+<summary><b>Jackbox Party Pack 10</b></summary>
   <br>
   <details>
   <summary>Bidiots</summary>
