@@ -69,10 +69,10 @@ const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
         btn.disabled = false;
         btn.style.opacity = '1';
         btn.style.transition = '0.2s';
-    }    
+    }
   }
 
-  const handleUpload = async () => {
+  const handleAudioUpload = async () => {
     setShowSpinner(true);
     if (!selectedFiles) {
       setOutput("No files selected");
@@ -107,9 +107,6 @@ const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
       console.error(error);
       setOutput("Error uploading files");
     } setShowSpinner(false);
-    setTimeout(() => {
-      window.location.reload();
-    }, 3000);
   }
 
   return (
@@ -121,7 +118,7 @@ const Pack2Earwax: React.FC<PackSubProps> = ({  }) => {
         <Description text="Upload custom audio files to Earwax to be randomly distributed to players." styles={{margin: '0 0 25px 0'}}/>
         <input type="file" accept=".ogg" multiple onChange={handleFileChange} style={{color: 'white', fontFamily: 'Inter', fontSize: '20px', width: '300px', marginLeft: '30px'}}/>
         <span style={{color: '#999', fontFamily: 'Inter', fontWeight: 600, fontSize: '16px', marginTop: '15px'}}>Supported file types: .ogg</span>
-        <button id="earwaxbtn" onClick={handleUpload} style={{marginTop: '20px', width: '25%', opacity: 0.4, transition: '0.2s'}}>Select Earwax Directory</button>
+        <button id="earwaxbtn" onClick={handleAudioUpload} style={{marginTop: '20px', width: '25%', opacity: 0.4, transition: '0.2s'}}>Select Earwax Directory</button>
         {showSpinner && <div className={`spinner ${!showSpinner ? 'fadeOut' : ''}`}></div>}
         {output && 
           <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}}>

@@ -6,11 +6,12 @@ import shutil
 from actions import format_jet_file, find_template, add_new_object, select_dir
 import tkinter as tk
 from tkinter import filedialog
+import json
 
 app = Flask(__name__)
 CORS(app)
-CORS(app, resources={r"/pack2earwax": {"origins": "http://localhost:3000"}})
 
+CORS(app, resources={r"/pack2earwax": {"origins": "http://localhost:3000"}})
 @app.route('/pack2earwax', methods=['POST'])
 def pack_2_earwax():
     root = tk.Tk()
@@ -62,7 +63,66 @@ def pack_2_earwax():
         add_new_object(f"{BASE_EARWAX}{BASE_EARWAX_JET_FILE}", os.path.splitext(file.filename)[0], unique_id, "cartoon")
         # Done!
     output = f"{num_files} file(s) added successfully!"
-    return jsonify({"output": output})
+    return jsonify({"output": "Modded successfully!"})
+
+CORS(app, resources={r"/pack5madversecity": {"origins": "http://localhost:3000"}})
+@app.route('/pack5madversecitybuilding', methods=['GET'])
+def pack_5_madversecitybuilding():
+    building_jet = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 5\games\RapBattle\content\RapBattleBuilding.jet"
+    root = tk.Tk()
+    root.withdraw()
+    txt_file = filedialog.askopenfilename(filetypes=[('Text files', '*.txt')], defaultextension=".txt")
+    root.destroy()
+
+    def update_json_with_txt(json_filename, txt_filename):
+        with open(json_filename, 'r') as json_file:
+            data = json.load(json_file)
+        data['content'] = [entry for entry in data['content'] if not ("002" <= entry['id'] <= "027")]
+        last_id = int(data['content'][-1]['id'])
+        with open(txt_filename, 'r') as txt_file:
+            for line in txt_file:
+                last_id += 1
+                new_entry = {
+                    "id": f"{last_id:03}", # ids must be 3 digits or less or the game shits itself
+                    "name": line.strip(),
+                    "giveTrophy": False
+                }
+                data['content'].append(new_entry)
+        with open(json_filename, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
+
+    update_json_with_txt(building_jet, txt_file)
+    success = "Modded successfully!"
+    return jsonify({"output": success})
+
+CORS(app, resources={r"/pack5madversecitytickergag": {"origins": "http://localhost:3000"}})
+@app.route('/pack5madversecitytickergag', methods=['GET'])
+def pack_5_madversecitytickergag():
+    building_jet = "C:\Program Files (x86)\Steam\steamapps\common\The Jackbox Party Pack 5\games\RapBattle\content\RapBattleTickerGag.jet"
+    root = tk.Tk()
+    root.withdraw()
+    txt_file = filedialog.askopenfilename(filetypes=[('Text files', '*.txt')], defaultextension=".txt")
+    root.destroy()
+
+    def update_json_with_txt(json_filename, txt_filename):
+        with open(json_filename, 'r') as json_file:
+            data = json.load(json_file)
+        data['content'] = [entry for entry in data['content'] if not ("002" <= entry['id'])]
+        last_id = int(data['content'][-1]['id'])
+        with open(txt_filename, 'r') as txt_file:
+            for line in txt_file:
+                last_id += 1
+                new_entry = {
+                    "id": f"{last_id:03}", # ids must be 3 digits or less or the game shits itself
+                    "text": line.strip(),
+                }
+                data['content'].append(new_entry)
+        with open(json_filename, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
+
+    update_json_with_txt(building_jet, txt_file)
+    success = "Modded successfully!"
+    return jsonify({"output": success})
 
 if __name__ == "__main__":
     app.run(debug=True, port=5000)

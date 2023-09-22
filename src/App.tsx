@@ -1,15 +1,22 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Link, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import ImageLink from './components/ImageLink';
 import LargeTitle from './components/Titles';
 import Description from './components/Description';
-import { Pack1, Pack3, Pack4, Pack5, Pack6, Pack7, Pack8, Pack9, Pack10, Pack1FibbageXL, Pack1Lieswatter, Pack1Wordspud, Pack1YDKJ, Pack1Drawful } from './components/Packs';
-import Pack2 from './components/Packs/Pack2';
-import { Pack2Bidiots, Pack2Bombcorp, Pack2Earwax, Pack2Fibbage2, Pack2QuiplashXL } from './components/Packs/Pack2';
+import Pack1, { Pack1Drawful, Pack1FibbageXL, Pack1Lieswatter, Pack1Wordspud, Pack1YDKJ } from './components/Packs/Pack1';
+import Pack2, { Pack2Bidiots, Pack2Bombcorp, Pack2Earwax, Pack2Fibbage2, Pack2QuiplashXL } from './components/Packs/Pack2';
+import Pack3, { Pack3FakinIt, Pack3Guesspionage, Pack3Quiplash2, Pack3TeeKO, Pack3TriviaMurderParty } from './components/Packs/Pack3';
+import Pack4, { Pack4Bracketeering, Pack4CivicDoodle, Pack4Fibbage3, Pack4Monster, Pack4Survive } from './components/Packs/Pack4';
+import Pack5, { Pack5MadVerseCity, Pack5PatentlyStupid, Pack5SplitTheRoom, Pack5YDKJFS, Pack5ZeepleDome } from './components/Packs/Pack5';
+import Pack6, { Pack6Dictionarium, Pack6JokeBoat, Pack6PushTheButton, Pack6RoleModels, Pack6TriviaMurderParty2} from './components/Packs/Pack6';
+import Pack7, { Pack7BlatherRound, Pack7ChampdUp, Pack7Devils, Pack7Quiplash3, Pack7TalkingPoints } from './components/Packs/Pack7';
+import Pack8, { Pack8DrawfulAnimate, Pack8JobJob, Pack8PollMine, Pack8TheWheel, Pack8WeaponsDrawn } from './components/Packs/Pack8';
+import Pack9, { Pack9Fibbage4, Pack9Junktopia, Pack9Nonsensory, Pack9Quixort, Pack9Roomerang } from './components/Packs/Pack9';
 import { useTransition, animated } from 'react-spring';
-import { CSSProperties, useState } from 'react';
+import { CSSProperties } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import Pack10 from './components/Packs/Pack10';
 
 interface MainContentProps {
   styles?: CSSProperties;
@@ -120,13 +127,56 @@ const MainContent: React.FC<MainContentProps> = ({ styles }) => {
         <Route path="/pack2/quiplashxl" element={<Pack2QuiplashXL />} />
 
         <Route path="/pack3" element={<Pack3 />} />
+        <Route path="/pack3/fakinit" element={<Pack3FakinIt />} />
+        <Route path="/pack3/guesspionage" element={<Pack3Guesspionage />} />
+        <Route path="/pack3/quiplash2" element={<Pack3Quiplash2 />} />
+        <Route path="/pack3/teeko" element={<Pack3TeeKO />} />
+        <Route path="/pack3/triviamurderparty" element={<Pack3TriviaMurderParty />} />
+
         <Route path="/pack4" element={<Pack4 />} />
+        <Route path="/pack4/bracketeering" element={<Pack4Bracketeering />} />
+        <Route path="/pack4/civicdoodle" element={<Pack4CivicDoodle />} />
+        <Route path="/pack4/fibbage3" element={<Pack4Fibbage3 />} />
+        <Route path="/pack4/monster" element={<Pack4Monster />} />
+        <Route path="/pack4/survive" element={<Pack4Survive />} />
+
         <Route path="/pack5" element={<Pack5 />} />
+        <Route path="/pack5/madversecity" element={<Pack5MadVerseCity />} />
+        <Route path="/pack5/patentlystupid" element={<Pack5PatentlyStupid />} />
+        <Route path="/pack5/splittheroom" element={<Pack5SplitTheRoom />} />
+        <Route path="/pack5/ydkjfs" element={<Pack5YDKJFS />} />
+        <Route path="/pack5/zeepledome" element={<Pack5ZeepleDome />} />
+
         <Route path="/pack6" element={<Pack6 />} />
+        <Route path="/pack6/dictionarium" element={<Pack6Dictionarium />} />
+        <Route path="/pack6/jokeboat" element={<Pack6JokeBoat />} />
+        <Route path="/pack6/pushthebutton" element={<Pack6PushTheButton />} />
+        <Route path="/pack6/rolemodels" element={<Pack6RoleModels />} />
+        <Route path="/pack6/triviamurderparty2" element={<Pack6TriviaMurderParty2 />} />
+
         <Route path="/pack7" element={<Pack7 />} />
+        <Route path="/pack7/blatherround" element={<Pack7BlatherRound />} />
+        <Route path="/pack7/champdup" element={<Pack7ChampdUp />} />
+        <Route path="/pack7/devils" element={<Pack7Devils />} />
+        <Route path="/pack7/quiplash3" element={<Pack7Quiplash3 />} />
+        <Route path="/pack7/talkingpoints" element={<Pack7TalkingPoints />} />
+
         <Route path="/pack8" element={<Pack8 />} />
+        <Route path="/pack8/drawfulanimate" element={<Pack8DrawfulAnimate />} />
+        <Route path="/pack8/jobjob" element={<Pack8JobJob />} />
+        <Route path="/pack8/pollmine" element={<Pack8PollMine />} />
+        <Route path="/pack8/thewheel" element={<Pack8TheWheel />} />
+        <Route path="/pack8/weaponsdrawn" element={<Pack8WeaponsDrawn />} />
+
         <Route path="/pack9" element={<Pack9 />} />
-        <Route path="/pack10" element={<Pack10 />} />
+        <Route path="/pack9/fibbage4" element={<Pack9Fibbage4 />} />
+        <Route path="/pack9/junktopia" element={<Pack9Junktopia />} />
+        <Route path="/pack9/nonsensory" element={<Pack9Nonsensory />} />
+        <Route path="/pack9/quixort" element={<Pack9Quixort />} />
+        <Route path="/pack9/roomerang" element={<Pack9Roomerang />} />
+
+        <Route path="/pack10" element={<Pack10 />} /> {/* pending release, no games known yet */}
+
       </Routes>
     </animated.div>
   ));
