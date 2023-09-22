@@ -153,7 +153,68 @@
   
   <details>
   <summary>Trivia Murder Party</summary>
-  Notes on how to mod this game go here
+  <h2>Research</h2>
+  <ul>
+    <li>
+      Within the game, there are 4 directories:<br>
+      <ul>
+        <li>
+          <code>./TDFinalRound</code> - game data relating to the final round
+        </li>
+        <li>
+          <code>./TDQuestion</code> - game data relating to trivia questions asked before the final round
+        </li>
+        <li>
+          <code>./TDWorstDrawing</code> - game data relating to the "Worst Drawing" minigame where alive players must draw something and dead players choose the worst drawing. The player with the worst voted drawing dies.
+        </li>
+        <li>
+          <code>./TDWorstResponse</code> - game data relating to the "Worst Response" minigame where alive players must respond to a prompt asked by the narrator. The player with the worst voted response dies.
+        </li>
+      </ul>
+    </li>
+    <li>
+      There are also 4 higher-order <code>.jet</code> files that control the data that gets chosen within each of those directories:
+      <ul>
+        <li>
+          <code>TDFinalRound.jet</code>
+        </li>
+        <li>
+          <code>TDQuestion.jet</code>
+        </li>
+        <li>
+          <code>TDWorstDrawing.jet</code>
+        </li>
+        <li>
+          <code>TDWorstResponse.jet</code>
+        </li>
+      </ul>
+      <h2><code>./TDFinalRound</code></h2>
+      <p>Within each child folder of <code>./TDFinalRound</code> exists two items:</p>
+      <ul>
+      <li>An <code>.ogg</code> audio file containing the prompt with a unique ID as its filename.</li>
+      <li>A <code>data.jet</code> file with data that connects the audio to the prompt that is being displayed on screen.</li>
+      </ul>
+      <h2><code>./TDQuestion</code></h2>
+      <p>Within each child folder of <code>./TDQuestion</code> exists either 2 or 3 items:</p>
+      <ul>
+      <li>An <code>.ogg</code> audio file containing the prompt with a unique ID as its filename.</li>
+      <li>An <code>.ogg</code> audio file containing the intro with a unique ID as its filename.</li>
+      <li>A <code>data.jet</code> file with data that connects the audio to the prompt that is being displayed on screen.</li>
+      </ul>
+      <h2><code>./TDWorstDrawing</code></h2>
+      <p>Within each child folder of <code>./TDWorstDrawing</code> exists two items:</p>
+      <ul>
+      <li>An <code>.ogg</code> audio file containing the prompt with a unique ID as its filename.</li>
+      <li>A <code>data.jet</code> file with data that connects the audio to the prompt that is being displayed on screen.</li>
+      </ul>
+      <h2><code>./TDWorstResponse</code></h2>
+      <p>Within each child folder of <code>./TDWorstResponse</code> exists two items:</p>
+      <ul>
+      <li>An <code>.ogg</code> audio file containing the prompt with a unique ID as its filename.</li>
+      <li>A <code>data.jet</code> file with data that connects the audio to the prompt that is being displayed on screen.</li>
+      </ul>
+    </li>
+  </ul>
   </details>
     
   * * *
