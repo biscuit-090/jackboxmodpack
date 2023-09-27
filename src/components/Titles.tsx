@@ -17,7 +17,7 @@ const LargeTitle: React.FC<TitleProps> = ({ text, styles }) => {
 const MediumTitle: React.FC<TitleProps> = ({ text, styles }) => {
   return (
     <div>
-        <h1 style={{fontFamily: 'JockeyOne', color: 'white', fontSize: '50px', ...styles}}>{text}</h1>
+        <h1 style={{fontFamily: 'Inter', color: 'white', fontSize: '40px', ...styles}}>{text}</h1>
     </div>
   );
 }

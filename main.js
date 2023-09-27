@@ -1,17 +1,41 @@
 const { app, BrowserWindow } = require('electron');
 const { exec } = require('child_process');
 const path = require('path');
-
 const fs = require('fs');
 
 const logStream = fs.createWriteStream(path.join(__dirname, 'flask_server.log'), { flags: 'a' });
 
-const flaskProcess = exec('python server/app.py');
-
-flaskProcess.stdout.pipe(logStream);
-flaskProcess.stderr.pipe(logStream);
-
 let mainWindow;
+
+setTimeout(() => {
+  const flaskProcess = exec('python server/app.py', (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Flask exec error: ${error}`);
+      return;
+    }
+    console.log(`Flask server stdout: ${stdout}`);
+    console.error(`Flask server stderr: ${stderr}`);
+    flaskProcess.stdout.pipe(logStream);
+    flaskProcess.stderr.pipe(logStream);
+  });
+  flaskProcess.stdout.on('data', function(data) {
+    console.log('Flask stdout: ' + data.toString());
+  });
+  flaskProcess.stderr.on('data', function(data) {
+    console.log('Flask stderr: ' + data.toString());
+  });
+}, 2000)
+
+setTimeout(() => {
+  const nodeProcess = exec('npm run react-start', (error, stdout, stderr) => {
+    if (error) {
+      console.error(`Node exec error: ${error}`);
+      return;
+    }
+    console.log(`Node server stdout: ${stdout}`);
+    console.error(`Node server stderr: ${stderr}`);
+  });
+}, 3000)
 
 function createWindow() {
   mainWindow = new BrowserWindow({
@@ -29,15 +53,16 @@ function createWindow() {
     icon: path.join(__dirname, 'jackboxlogodevlight.ico')
   });
 
-  // Load the React app
   mainWindow.loadURL('http://localhost:3000/');
-
+  
   mainWindow.on('closed', () => {
     mainWindow = null;
   });
 }
 
-app.on('ready', createWindow);
+app.on('ready', () => {
+  setTimeout(createWindow, 5000); // Increased timeout to give both servers time to start.
+});
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
@@ -53,14 +78,5 @@ app.on('activate', () => {
 
 app.on('will-quit', () => {
   flaskProcess.kill();
-});
-
-// Start Flask server when the Electron app starts
-exec('python server/app.py', (error, stdout, stderr) => {
-  if (error) {
-    console.error(`exec error: ${error}`);
-    return;
-  }
-  console.log(`Flask server stdout: ${stdout}`);
-  console.error(`Flask server stderr: ${stderr}`);
+  nodeProcess.kill();
 });

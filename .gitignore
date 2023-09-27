@@ -10,6 +10,8 @@
 
 # production
 /build
+/dist
+/.vscode
 
 # misc
 .DS_Store
@@ -23,3 +25,5 @@ yarn-debug.log*
 yarn-error.log*
 /MyApp-win32-x64
 flask_server.log
+
+/jackboxmodpack-win32-x64

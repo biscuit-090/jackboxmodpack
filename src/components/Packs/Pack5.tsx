@@ -76,7 +76,7 @@ const Pack5MadVerseCity: React.FC<PackSubProps> = ({  }) => {
 			<PageHeader text="Jackbox Party Pack 5 > Mad Verse City" styles={{width: '100%'}} />
 			<LargeTitle text="Mad Verse City Mods" styles={{margin: '20px 0 0 0'}}/>
 			<div style={{display: 'flex', flexDirection: 'column', marginTop: '30px', alignItems: 'center', justifyContent: 'center', background: '#222', borderRadius: '8px', padding: '20px', width: '95%'}}>
-				<MediumTitle text="Custom Skyscraper Name" styles={{margin: '0 0 10px 0'}}/>
+				<MediumTitle text="Custom Skyscraper Names" styles={{margin: '0 0 12px 0'}}/>
 				<Description text="Upload a .txt file with funny text on each line to randomly name the skyscraper in-game." styles={{margin: '0 0 25px 0'}}/>
 				<button id="uploadbtn" onClick={handleTxtUploadBuilding} style={{width: '25%', transition: '0.2s'}}>Upload File</button>
 				<span style={{color: '#999', fontFamily: 'Inter', fontWeight: 600, fontSize: '16px', marginTop: '15px'}}>Supported file types: .txt</span>
@@ -86,7 +86,7 @@ const Pack5MadVerseCity: React.FC<PackSubProps> = ({  }) => {
 			</div>
 
 			<div style={{display: 'flex', flexDirection: 'column', marginTop: '30px', alignItems: 'center', justifyContent: 'center', background: '#222', borderRadius: '8px', padding: '20px', width: '95%'}}>
-				<MediumTitle text="Custom Marquee Text" styles={{margin: '0 0 10px 0'}}/>
+				<MediumTitle text="Custom Marquee Text" styles={{margin: '0 0 12px 0'}}/>
 				<Description text="Upload a .txt file with funny text on each line to be randomly displayed on the marquee." styles={{margin: '0 0 25px 0'}}/>
 				<button id="uploadbtn" onClick={handleTxtUploadTickerGag} style={{width: '25%', transition: '0.2s'}}>Upload File</button>
 				<span style={{color: '#999', fontFamily: 'Inter', fontWeight: 600, fontSize: '16px', marginTop: '15px'}}>Supported file types: .txt</span>
